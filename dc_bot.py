@@ -38,8 +38,8 @@ async def ping(ctx):
     #ctx : context 上下文
     #A:嗨 (上文) (user, id, server, channel)
     #B:安安(下文)
-    await ctx.send(f"{round(bot.latency*1000)}ms")#from ctx finding the attributes and sending text to the goal by the information from ctx.
+    await ctx.send(f"ping : {round(bot.latency*1000)} ms")#from ctx finding the attributes and sending text to the goal by the information from ctx.
     #bot.latency get the latency 
     #1000ms = 1s
     
-bot.run("ODk2Mjc4MTU0Mzk2NzEzMDAw.YWEyFA.Zm6LEwEm30ZwRGK-rff8Sbrwajw")#括號裡面放token
+bot.run("token")#括號裡面放token
